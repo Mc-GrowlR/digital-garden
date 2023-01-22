@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"c5a702b8342ad75a","x":-236,"y":-45,"width":250,"height":60,"type":"text","text":"ji lu"},
+		{"id":"0efb0810227d2569","x":-180,"y":-45,"width":137,"height":60,"color":"5","type":"text","text":"**Neovim 配置**"}
+	],
+	"edges":[]
+}

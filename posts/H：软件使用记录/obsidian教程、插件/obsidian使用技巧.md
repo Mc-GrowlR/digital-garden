@@ -1,0 +1,1 @@
+[Johnny学OB 第37集 教你几招 - 如何在Obsidian中更好的使用Mermaid做流程图 Obsidian教程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1eU4y1F7jn)

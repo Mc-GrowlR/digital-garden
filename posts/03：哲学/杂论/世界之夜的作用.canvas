@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"34548881a5ade9bb","x":306,"y":-60,"width":129,"height":60,"type":"text","text":"混乱的杂多"},
+		{"id":"94a3a568c5715914","x":-109,"y":-60,"width":133,"height":60,"type":"text","text":"有机的整体"},
+		{"id":"bdc3d27f5ec02b27","x":784,"y":-60,"width":120,"height":60,"type":"text","text":"有序的整全"},
+		{"id":"90b54ba6d445bb2c","x":281,"y":85,"width":180,"height":189,"type":"text","text":"野人/动物\n盲目的、受各种混乱杂多的支配。特别是资产阶级的人类学能体现出此观点"},
+		{"id":"d12fb82df233fcec","x":719,"y":106,"width":250,"height":147,"type":"text","text":"人类\n(受符号学秩序的控制)"}
+	],
+	"edges":[
+		{"id":"575e98d3772531c1","fromNode":"94a3a568c5715914","fromSide":"right","toNode":"34548881a5ade9bb","toSide":"left","color":"6","label":"世界之夜"},
+		{"id":"924d5e6c1c8a5da2","fromNode":"34548881a5ade9bb","fromSide":"right","toNode":"bdc3d27f5ec02b27","toSide":"left","color":"6","label":"世界之夜"},
+		{"id":"46a957a8e304046e","fromNode":"90b54ba6d445bb2c","fromSide":"top","toNode":"34548881a5ade9bb","toSide":"bottom","label":"对应"},
+		{"id":"26949e26e222a385","fromNode":"d12fb82df233fcec","fromSide":"top","toNode":"bdc3d27f5ec02b27","toSide":"bottom","label":"对应"},
+		{"id":"1a38538ba3159c8b","fromNode":"90b54ba6d445bb2c","fromSide":"right","toNode":"d12fb82df233fcec","toSide":"left","label":"语言/符号\nprogressive"}
+	]
+}
