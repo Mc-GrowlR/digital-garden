@@ -28,6 +28,8 @@ MindStone demo： [MindStone](https://mindstone.tuancao.me/note/__index)
 
 因此我记录了我搭建网站的步骤，并在其中进行了标注，希望能帮助到大家。
 
+**警告：** 该网站的计费是以带宽和站点构建次数为主要计费模式，因此 `git push` 的次数建议不要太频繁，不然会浪费`build`次数和带宽。
+
 ## 0. 前期准备
 
 **您需准备好：**
