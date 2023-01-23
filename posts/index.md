@@ -17,18 +17,45 @@ MindStone demo： [MindStone](https://mindstone.tuancao.me/note/__index)
 ### 显示结果
 
 1. 上传到图床中的照片在本地测试中未能正常显示，仅能显示出图片名称。
-	- 因此 **建议（仅为建议）** 图片本地化，我也将改善我的库文件结构了。
-2. 
+   - 因此 **建议（仅为建议）** 图片本地化，我也将改善我的库文件结构了。
+2. 其余未测试。
 
 
-# 项目构建教程：
+# 项目构建教程（服务器实现）
+
+完成（官方步骤）中的 0 1 2 步后：
+
+在自己的云服务器上：
+
+``` shell
+screen -S garden
+```
+
+**备注：** [Linux终端命令神器--Screen命令详解。助力Linux使用和管理 - 腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1844735)
+
+安装 `yarn` ：[Installation  Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)，在这个网站中选择自己的 linux 发行版。
+
+如果你是 `Ubuntu` 请用：[Ubuntu使用yarn报错：“ERROR There are no scenarios; must have at least one.”_ZTao-z的博客-CSDN博客](https://blog.csdn.net/think_A_lot/article/details/103276336)
+
+**备注：** 我这台云服务器系统的版本是 `Ubuntu server 20.04`，直接用 apt 安装会报上方说明的错误。
+
+登陆云服务器控制台放开 `3000` 端口。
+
+进入项目根目录下输入：
+``` shell
+yarn && yarn run dev
+```
+
+在浏览器中输入你的服务器域名后面跟上 `:3000` 端口，就能看到构建完成的项目：
+
+![[Pasted image 20230123090944.png]]
+
+# 项目构建教程：(官方步骤)
 
 
 我按照其中的步骤慢慢搭建起来我的数字花园，但是其原版的步骤过于简略，又是全英文操作，会使人感觉无从下手。
 
 因此我记录了我搭建网站的步骤，并在其中进行了标注，希望能帮助到大家。
-
-**警告：** 该网站的计费是以带宽和站点构建次数为主要计费模式，因此 `git push` 的次数建议不要太频繁，不然会浪费`build`次数和带宽。
 
 ## 0. 前期准备
 
@@ -43,12 +70,12 @@ MindStone demo： [MindStone](https://mindstone.tuancao.me/note/__index)
 ### 1.1 利用项目模板创建仓库
 
 1. 登陆 github, 点击**项目地址：** [TuanManhCaodigital-garden Free Obisidian Publish alternative, for publishing your digital garden.](https://github.com/TuanManhCao/digital-garden)
-	依次点击 `Use this template` -> `Create a new repository`
-	![[Pasted image 20230122214821.png]]
+   依次点击 `Use this template` -> `Create a new repository`
+   ![[Pasted image 20230122214821.png]]
 
 2. 点击之后出现如下界面，填写 `Repository name` (仓库名)
    -  **说明**： `Description` 是仓库的简明介绍，可选填。
-	![[Pasted image 20230122215110.png]]
+   ![[Pasted image 20230122215110.png]]
 
 3. 填写完 `Repository name` ，点击下方变为深绿的 `Create repository from template` 按钮。
    - **仓库创建中：**
